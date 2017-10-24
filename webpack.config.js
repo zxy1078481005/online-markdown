@@ -12,7 +12,7 @@ module.exports = {
     },
     //入口文件输出配置
     output: {
-        path: 'docs/js/',
+        path: '/Users/apple/develop/code/GIT_CHECK/my/online-markdown/docs/js/',
         filename: '[name].js'
     },
     module: {
@@ -26,43 +26,43 @@ module.exports = {
     },
     plugins: [
         new CopyWebpackPlugin([
-            { 
+            {
                 context: path.join(__dirname, './src/css/pageThemes'),
-                from: '*', 
+                from: '*',
                 to: '../pageThemes',
                 force: true
             },
-            { 
+            {
                 context: path.join(__dirname, './src/imgs'),
-                from: '*', 
+                from: '*',
                 to: '../imgs',
                 force: true
             },
-            { 
+            {
                 context: path.join(__dirname, './src/css/themes'),
-                from: '*', 
+                from: '*',
                 to: '../themes',
                 force: true
             },
-            { 
+            {
                 context: path.join(__dirname, './src'),
                 from: "index.html",
                 to: '../index.html',
                 force: true
             },
-            { 
+            {
                 context: path.join(__dirname, './src'),
                 from: "demo.md",
                 to: '../demo.md',
                 force: true
             },
-            { 
+            {
                 context: path.join(__dirname, './src'),
                 from: "favicon.ico",
                 to: '../favicon.ico',
                 force: true
             },
-            { 
+            {
                 context: path.join(__dirname, './src'),
                 from: "CNAME",
                 to: '../CNAME',
