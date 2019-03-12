@@ -1,0 +1,39 @@
+.wrapper {
+  font-size: 16px;
+  font-family: Avenir, -apple-system-font, 微软雅黑, sans-serif;
+}
+.wrapper p {
+  font-size: 16px;
+  font-
+  white-space: pre-line;
+  line-height: 1.75em;
+  color: #333;
+}
+
+.wrapper blockquote p {
+  font-size: 16px;
+  color: #333;
+
+}
+.wrapper h1 {
+  font-size: 28px;
+  color: #333;
+}
+.wrapper h2 {
+  font-size: 24px;
+  color: #333;
+}
+.wrapper h3 {
+  font-size: 20px;
+  color: #333;
+}
+.wrapper h4 {
+  font-size: 18px;
+  color: #333;
+}
+
+.wrapper ul li span, .wrapper ol li span {
+  line-height: 1.75em;
+  font-size: 16px !important;
+  color: #333;
+}
