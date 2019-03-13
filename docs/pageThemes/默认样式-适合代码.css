@@ -1,6 +1,6 @@
 .wrapper {
   font-size: 16px;
-  font-family: Avenir, -apple-system-font, 微软雅黑, sans-serif;
+  font-family: -apple-system-font,BlinkMacSystemFont,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei UI","Microsoft YaHei",Arial,sans-serif;
 }
 .wrapper p {
   font-size: 16px;
@@ -8,6 +8,8 @@
   white-space: pre-line;
   line-height: 1.75em;
   color: #333;
+  margin-left: 8px;
+  margin-right: 8px;
 }
 
 .wrapper blockquote p {
